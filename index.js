@@ -4,14 +4,14 @@ client.on('ready', () => {
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
-details : "Get forked !",
+details : "[word]",
 assets : {
-large_image : "h",
-large_text : "hw", // THIS WILL SHOW AS "Playing <Status>" from the outisde
+large_image : "[word]",
+large_text : "[word]", // THIS WILL SHOW AS "Playing <Status>" from the outisde
 },
-buttons : [{label : "add friend me on lichess" , url : "https://lichess.org/@/Dabruh123"},{label : "send me money for vps",url : "https://www.paypal.com/paypalme/Forex24259"}],
+buttons : [{label : "[word]" , url : "[url]"},{label : "[word]",url : "[url]"}],
 timestamps: {start: Date.now()},
 }
 })
 })
-client.login({ clientId : "848533083183251466" }).catch(console.error);
+client.login({ clientId : "[Your clientId" }).catch(console.error);
